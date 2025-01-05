@@ -112,6 +112,7 @@ footer {
     color: #fff;
 }
 
-#community li{
+#community li, a{
     list-style-type: none;
+    color: black
 }
