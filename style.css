@@ -85,8 +85,8 @@ header p {
 }
 
 .tokenomics-table .tokenomics-icon {
-    width: 40px;
-    height: 40px;
+    font-size: 40px; /* Dimensione icone Tokenomics */
+    color: #5a3e36;
 }
 
 /* Section Styles */
