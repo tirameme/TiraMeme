@@ -8,25 +8,24 @@ body {
     color: #444;
 }
 
-/* Header styles */
+/* Header with custom background and logo size */
 header {
-    background-color: #f9f7f4; /* Sfondo personalizzato */
-    color: #5a3e36;
+    background-color: #f9f7f4; /* Sfondo colore richiesto */
+    color: #5a3e36; /* Colore del testo */
     text-align: center;
     padding: 20px 0;
-    border-bottom: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2; /* Linea di separazione */
 }
 
 header .logo {
-    width: 460px; /* Dimensione logo */
+    width: 460px; /* Dimensione del logo */
     margin-bottom: 10px;
 }
 
-header .title {
+header h1 {
     font-family: 'Pacifico', cursive; /* Font Pacifico */
     font-size: 3rem;
     margin: 0;
-    color: #ff6f61;
 }
 
 header p {
@@ -61,6 +60,12 @@ header p {
     color: #ffd6a5;
 }
 
+.navbar .icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
 /* Section Styles */
 .section {
     padding: 20px;
@@ -93,12 +98,11 @@ ul.community-links a {
     color: #5a3e36;
     display: inline-flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
-ul.community-links .icon {
-    width: 24px;
-    height: 24px;
+ul.community-links a:hover {
+    color: #ffd6a5;
 }
 
 footer {
