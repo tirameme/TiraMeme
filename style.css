@@ -1,18 +1,23 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f8f8f2;
+    background-color: #f9f5f0;
     color: #444;
 }
 
 header {
     background: linear-gradient(to right, #ffcf8b, #ffd6a5);
     color: #5a3e36;
-    padding: 20px 0;
     text-align: center;
+    padding: 20px 0;
+}
+
+header .logo {
+    width: 100px;
+    margin-bottom: 10px;
 }
 
 header h1 {
@@ -26,12 +31,12 @@ header p {
 }
 
 .navbar {
-    list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
     justify-content: center;
     background-color: #5a3e36;
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
 }
 
 .navbar li {
@@ -41,7 +46,10 @@ header p {
 .navbar a {
     text-decoration: none;
     color: #fff;
-    font-weight: bold;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .navbar a:hover {
@@ -60,6 +68,26 @@ header p {
 
 h2 {
     color: #5a3e36;
+    font-size: 1.8rem;
+}
+
+.community-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.community-links li {
+    margin: 10px 0;
+}
+
+.community-links a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #5a3e36;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
 }
 
 footer {
@@ -67,7 +95,4 @@ footer {
     padding: 10px;
     background: #5a3e36;
     color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
