@@ -8,21 +8,25 @@ body {
     color: #444;
 }
 
+/* Header with white background */
 header {
-    background: linear-gradient(to right, #ffcf8b, #ffd6a5);
-    color: #5a3e36;
+    background-color: #ffffff; /* Sfondo bianco */
+    color: #5a3e36; /* Colore del testo */
     text-align: center;
     padding: 20px 0;
+    border-bottom: 2px solid #f2f2f2; /* Linea di separazione */
 }
 
 header .logo {
-    width: 460px;
+    width: 100px;
     margin-bottom: 10px;
 }
 
-header h1 {
-    font-size: 2.5rem;
+header .title {
+    font-family: 'Pacifico', cursive; /* Font Pacifico */
+    font-size: 3rem;
     margin: 0;
+    color: #ff6f61; /* Colore accattivante */
 }
 
 header p {
@@ -30,6 +34,7 @@ header p {
     margin: 10px 0 0;
 }
 
+/* Navigation Bar */
 .navbar {
     display: flex;
     justify-content: center;
@@ -56,6 +61,7 @@ header p {
     color: #ffd6a5;
 }
 
+/* Section Styles */
 .section {
     padding: 20px;
     text-align: center;
@@ -71,23 +77,28 @@ h2 {
     font-size: 1.8rem;
 }
 
-.community-links {
+ul.community-links {
     list-style: none;
     padding: 0;
     margin: 20px 0;
 }
 
-.community-links li {
+ul.community-links li {
     margin: 10px 0;
 }
 
-.community-links a {
+ul.community-links a {
     text-decoration: none;
     font-weight: 600;
     color: #5a3e36;
     display: inline-flex;
     align-items: center;
     gap: 5px;
+}
+
+ul.community-links a[href*="x.com"] {
+    color: #1da1f2; /* Blu di X */
+    font-weight: bold;
 }
 
 footer {
