@@ -8,17 +8,17 @@ body {
     color: #444;
 }
 
-/* Header with white background */
+/* Header styles */
 header {
-    background-color: #ffffff; /* Sfondo bianco */
-    color: #5a3e36; /* Colore del testo */
+    background-color: #f9f7f4; /* Sfondo personalizzato */
+    color: #5a3e36;
     text-align: center;
     padding: 20px 0;
-    border-bottom: 2px solid #f2f2f2; /* Linea di separazione */
+    border-bottom: 2px solid #f2f2f2;
 }
 
 header .logo {
-    width: 100px;
+    width: 460px; /* Dimensione logo */
     margin-bottom: 10px;
 }
 
@@ -26,7 +26,7 @@ header .title {
     font-family: 'Pacifico', cursive; /* Font Pacifico */
     font-size: 3rem;
     margin: 0;
-    color: #ff6f61; /* Colore accattivante */
+    color: #ff6f61;
 }
 
 header p {
@@ -93,12 +93,12 @@ ul.community-links a {
     color: #5a3e36;
     display: inline-flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 }
 
-ul.community-links a[href*="x.com"] {
-    color: #1da1f2; /* Blu di X */
-    font-weight: bold;
+ul.community-links .icon {
+    width: 24px;
+    height: 24px;
 }
 
 footer {
